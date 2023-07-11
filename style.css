@@ -60,9 +60,10 @@ header {
   gap: 20px;
 }
 .box {
-  width: 464px;
-  height: 538px;
-  border-radius: 300px 300px 0px 0px;
+  width: 400px;
+  height: 480px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 .flower-box1 {
   background: rgba(167, 33, 98, 0.15);
@@ -74,13 +75,13 @@ header {
   background: rgba(71, 125, 17, 0.15);
 }
 .box1-image {
-  padding: 110px 78px 0px 76px;
+  padding: 52px 25px 26px 18px;
 }
 .box2-image {
-  padding: 117px 47px 51px 47px;
+  padding: 85px 0px 52px 20px;
 }
 .box3-image {
-  padding: 67px 75px 0px 75px;
+  padding: 8px 0px 28px 20px;
 }
 .box-title {
   color: #272727;
@@ -95,12 +96,12 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1440px;
-  height: 320px;
+  width: 1100px;
+  height: 300px;
   flex-shrink: 0;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  margin: 100px auto;
+  margin: 130px auto;
 }
 .service {
   text-align: center;
@@ -178,6 +179,6 @@ header {
 .copyright {
   color: rgba(255, 255, 255, 0.4);
 }
-.name{
+.name {
   color: cadetblue;
 }
