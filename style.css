@@ -5,6 +5,7 @@
 /* common style */
 body {
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
 }
 .title {
   color: #272727;
@@ -28,7 +29,8 @@ body {
   font-weight: 700;
   border: 0;
 }
-/* header style */
+
+/* header section */
 header {
   display: flex;
   justify-content: space-evenly;
@@ -49,16 +51,15 @@ header {
   padding-top: 50px;
 }
 
+/* featured section */
 .featured {
   text-align: center;
-  margin: 100px;
 }
 .featured-flower {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 0 200px;
 }
 .box {
   width: 464px;
@@ -90,6 +91,8 @@ header {
   font-weight: 700;
   text-decoration-line: underline;
 }
+
+/* service section */
 .service-container {
   display: flex;
   justify-content: space-around;
@@ -104,8 +107,34 @@ header {
 .service {
   text-align: center;
 }
+
+/* hot deal section */
 .hot-deal {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 120px;
+}
+.deal-content {
+  text-align: center;
+}
+.off {
+  color: #e55473;
+}
+
+/* instragram section */
+.insta-content {
+  text-align: center;
+}
+.instagram-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 40px;
+}
+.inta-image{
+  padding: 20px;
 }
