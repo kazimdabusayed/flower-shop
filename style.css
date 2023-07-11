@@ -5,13 +5,13 @@
 /* common style */
 body {
   font-family: "Lato", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .title {
   color: #272727;
-  font-size: 30px;
+  font-size: 35px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
 }
 .description {
   color: rgba(39, 39, 39, 0.6);
@@ -42,9 +42,7 @@ header {
 .banner-content {
 }
 .banner-title {
-  color: #272727;
-  font-size: 60px;
-  font-weight: 800;
+  font-size: 70px;
 }
 .banner-flower {
   height: 500px;
@@ -131,10 +129,55 @@ header {
 }
 .instagram-img {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  margin: 0 40px;
+  margin: 0 200px;
 }
-.inta-image{
+.inta-image {
   padding: 20px;
+}
+
+/* latest deals section */
+.latest-deals {
+  background-image: url(./Rectangle\ 9.png);
+  text-align: center;
+  border-radius: 8px;
+  margin: 100px auto;
+  width: 1440px;
+  height: 449px;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+}
+.mail {
+  padding-top: 20px;
+}
+#email {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  border: 0;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+/* footer section */
+.footer {
+  height: 350px;
+  width: auto;
+  background: #111010;
+  text-align: center;
+  padding-top: 120px;
+}
+.footer-title {
+  color: #fff;
+}
+.footer-dep {
+  color: rgba(255, 255, 255, 0.8);
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+}
+.name{
+  color: cadetblue;
 }
